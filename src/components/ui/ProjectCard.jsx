@@ -19,8 +19,6 @@ export default function ProjectCard({ project }) {
 
       <div className="project-content">
         <h3>{project.title}</h3>
-        <p>{project.description}</p>
-
         <div className="project-tags">
           {project.tags.map((tag, index) => (
             <span key={index} className="tag">
@@ -28,6 +26,7 @@ export default function ProjectCard({ project }) {
             </span>
           ))}
         </div>
+        <p>{project.description}</p>
       </div>
 
     </div>
