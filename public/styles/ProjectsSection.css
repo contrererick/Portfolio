@@ -16,20 +16,22 @@
     display: flex;
     flex-direction: column;
     width: 30%;
-    gap: 30px;
+    gap: 15px;
 }
 
 .projects-list-item {
     padding: 15px 20px;
-    border-radius: var(--border-radius);
     cursor: pointer;
     transition: var(--transition);
-    border-left: 3px solid transparent;
+    border-bottom: 1px solid #CCCC;
 }
 
 .projects-list-item:hover {
-    background-color: var(--bg-light);
     border-left-color: var(--primary-color);
+}
+
+.projects-list-item:hover h3 {
+    color: var(--primary-color);
 }
 
 .projects-list-item.active {
@@ -92,7 +94,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(52, 152, 219, 0.9);
+    background-color: rgba(44, 62, 80, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,8 +137,13 @@
 }
 
 .project-content p {
-    color: var(--text-light);
     margin-bottom: 15px;
+    color: var(--text-light);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
     line-height: 1.6;
 }
 
@@ -148,11 +155,17 @@
 }
 
 .tag {
-    padding: 5px 12px;
-    background-color: var(--bg-light);
-    border-radius: 15px;
+    padding: 4px 12px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 20px;
     font-size: 0.85rem;
-    color: var(--primary-color);
-    font-weight: 250;
+    font-weight: 600;
+    border: 1px solid var(--primary-color);
 }
 
+.tag:hover {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 750;
+}
