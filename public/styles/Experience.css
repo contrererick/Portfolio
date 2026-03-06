@@ -1,0 +1,68 @@
+/*  ========================
+    Experience Section
+    ======================== */
+
+.experience {
+}
+
+.experience-grid {
+    display: grid;
+    padding: 15px;
+}
+
+.experience-timeline {
+    padding: 15px;
+    display: grid;
+}
+
+.experience-list-item {
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.experience-item-img {
+    min-width: 200px;
+    max-width: 200px;
+    height: 200px;
+}
+
+.experience-item-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-item-banner {
+    display: block;
+}
+
+.job-title{
+    font-size: 1.8rem;
+}
+
+.job-company {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--text-light)
+}
+
+.job-tenure {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: var(--text-light)
+}
+
+.experience-list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
