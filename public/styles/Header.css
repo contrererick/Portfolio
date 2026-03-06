@@ -6,8 +6,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: var(--shadow);
+    background-color: #1e1c28;
+    /* border-bottom: 1px solid #2c2b2f; */
+    border-bottom: 1.5px solid rgb(109, 109, 109);
+    box-shadow: 15px 0px 7px rgba(0, 0, 0, 0.5);
     z-index: 1000;
-    transition: var(--transition);
 }
