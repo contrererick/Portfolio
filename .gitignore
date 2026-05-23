@@ -1,0 +1,5 @@
+# Packages and Libraries
+node_modules/
+
+# Environment Variables and Constants
+.env
