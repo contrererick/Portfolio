@@ -1,0 +1,21 @@
+:root {
+    /*! Background and Text Colors */
+    --primary-bg-color: rgba(255, 255, 255, 0.9);
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --secondary-bg-color: rgba(240, 240, 240, 0.9);
+    --secondary-text-color: rgba(120, 120, 120, 0.8);
+    
+    /*! Font Settings */
+    --main-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --main-font-size: 16px;
+}
+
+/* Body Styles */
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--primary-bg-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    color: var(--primary-text-color);
+}
