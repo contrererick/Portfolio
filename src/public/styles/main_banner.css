@@ -1,8 +1,10 @@
 .main-banner {
-    margin: 10px;
+    margin: 40px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 10px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     border-bottom: 3px solid rgb(60, 60, 60);
     background-color: var(--secondary-bg-color);
     display: flex;
