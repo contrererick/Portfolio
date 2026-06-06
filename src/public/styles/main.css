@@ -1,7 +1,7 @@
 :root {
     /*! Background and Text Colors */
-    --primary-bg-color: rgba(255, 255, 255, 0.9);
-    --secondary-bg-color: rgba(240, 240, 240, 0.9);
+    --primary-bg-color: rgba(255, 255, 255);
+    --secondary-bg-color: rgba(240, 240, 240);
     --primary-text-color: rgb(60, 60, 60);
     --secondary-text-color: rgba(120, 120, 120, 0.8);
     --headers-text-color: rgb(30, 30, 30);
