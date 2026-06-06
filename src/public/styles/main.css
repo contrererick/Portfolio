@@ -9,12 +9,15 @@
     /*! Font Settings */
     --main-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --main-font-size: 16px;
+
+    /*! Images Settings */
+    --profile-border-color: rgb(0, 166, 216);
 }
 
 /* Body Styles */
 body {
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     background-color: var(--primary-bg-color);
     font-family: var(--main-font-family);
     font-size: var(--main-font-size);

@@ -1,0 +1,48 @@
+.main-banner {
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    border-bottom: 3px solid rgb(60, 60, 60);
+    background-color: var(--secondary-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-and-profession-description {
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.name-and-profession-description h1 {
+    color: rgb(0, 0, 63);
+}
+
+.name-and-profession-description h2 {
+    color: rgb(39, 0, 54);
+}
+
+.name-and-profession-description p {
+    font-style: italic;
+}
+
+.profile-picture {
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--profile-border-color);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
