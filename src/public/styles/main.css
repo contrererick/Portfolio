@@ -1,14 +1,20 @@
 :root {
-    /*! Background and Text Colors */
-    --primary-bg-color: rgba(255, 255, 255);
-    --secondary-bg-color: rgba(240, 240, 240);
-    --primary-text-color: rgb(60, 60, 60);
-    --secondary-text-color: rgba(120, 120, 120, 0.8);
-    --headers-text-color: rgb(30, 30, 30);
+    /*! Background Colors */
+    --default-bg-color: rgba(255, 255, 255);
+    --primary-bg-color: rgb(3, 0, 16);
+    --secondary-bg-color: rgb(0, 42, 255);
+
+    /*! Text Colors */
+    --primary-text-color: rgb(220, 220, 220);
+    --secondary-text-color: rgba(235, 235, 235);
+    --headers-text-color: rgb(2, 0, 46);
+    --nav-headers-text-color: rgb(0, 251, 255);
     
     /*! Font Settings */
-    --main-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --main-font-size: 16px;
+    --default-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --default-font-size: 16px;
+    --main-font-family: 'Georgia', serif;
+    --nav-font-family: 'Monaco', monospace;
 
     /*! Images Settings */
     --profile-border-color: rgb(0, 166, 216);
@@ -18,9 +24,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--primary-bg-color);
-    font-family: var(--main-font-family);
-    font-size: var(--main-font-size);
+    background-color: var(--default-bg-color);
+    font-family: var(--default-font-family);
+    font-size: var(--default-font-size);
 }
 
 body h1, body h2, body h3 {
