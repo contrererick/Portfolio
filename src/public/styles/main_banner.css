@@ -6,7 +6,7 @@
     padding-top: 80px;
     padding-bottom: 40px;
     border-bottom: 3px solid rgb(60, 60, 60);
-    background-color: var(--secondary-bg-color);
+    background-color: var(--primary-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,15 +17,14 @@
     margin: 5px;
     padding: 10px;
     text-align: center;
-
 }
 
 .name-and-profession-description h1 {
-    color: rgb(0, 0, 63);
+    color: var(--highligth-text-color-1);
 }
 
 .name-and-profession-description h2 {
-    color: rgb(39, 0, 54);
+    color: var(--highligth-text-color-2);
 }
 
 .name-and-profession-description p {

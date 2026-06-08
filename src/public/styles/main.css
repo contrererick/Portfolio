@@ -7,6 +7,8 @@
     /*! Text Colors */
     --primary-text-color: rgb(220, 220, 220);
     --secondary-text-color: rgba(235, 235, 235);
+    --highligth-text-color-1: rgb(72, 255, 255);
+    --highligth-text-color-2: rgb(131, 0, 187);
     --headers-text-color: rgb(2, 0, 46);
     --nav-headers-text-color: rgb(0, 251, 255);
     
