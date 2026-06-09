@@ -3,6 +3,8 @@
     --default-bg-color: rgba(255, 255, 255);
     --primary-bg-color: rgb(3, 0, 16);
     --secondary-bg-color: rgb(0, 42, 255);
+    --main-banner-gradient-color-1: rgb(0, 5, 25);
+    --main-banner-gradient-color-2: rgb(3, 11, 45);
 
     /*! Text Colors */
     --primary-text-color: rgb(220, 220, 220);
