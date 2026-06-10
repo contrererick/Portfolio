@@ -1,19 +1,29 @@
-.about-me {
+.about-me-section {
+    margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--secondary-text-color);
+}
+
+.about-me {
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-bottom: 3px solid rgb(60, 60, 60);
+    color: var(--secondary-text-color);
 }
 
 .about-me h2 {
+    margin: 0;
     color: var(--headers-text-color);
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .about-description {
@@ -22,21 +32,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .about-text {
-    width: 40%;
+    width: 60%;
+    text-align: center;
 }
 .about-text p{
-    text-align: center;
+    font-size: 120%;
     color: var(--secondary-text-color);
 }
 
-.experience-education-interests {
-    width: 60%;
+.experience-education-interests-list {
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: left;
 }
