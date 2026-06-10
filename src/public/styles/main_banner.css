@@ -1,21 +1,26 @@
-.main-banner {
-    margin: 40px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 10px;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    border-bottom: 3px solid rgb(60, 60, 60);
-    background: linear-gradient(0deg, var(--main-banner-gradient-color-1), var(--main-banner-gradient-color-2));
+.hero {
+    width: 100%;
+    margin-top: 90px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(0deg, var(--main-banner-gradient-color-1), var(--main-banner-gradient-color-2));
+}
+
+.main-banner {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid rgb(60, 60, 60);
+    background: linear-gradient(0deg, var(--main-banner-gradient-color-1), var(--main-banner-gradient-color-2));
 }
 
 .name-and-profession-description {
     width: 50%;
     margin: 5px;
-    margin-left: 80px;
     padding: 10px;
     text-align: center;
 }
