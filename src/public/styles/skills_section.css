@@ -1,0 +1,40 @@
+:root {
+    /* Skill Cards Variables*/
+    --main-border-color: rgb(150, 150, 150);
+}
+
+.skills-section {
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-bottom: 2px solid var(--profile-border-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-grid {
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+}
+
+.skill-row {
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid var(--main-border-color);
+    border-right: 1px solid var(--main-border-color);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(60, 60, 60, 0.6);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-row p{
+    color: var(--dark-text-color);
+}
