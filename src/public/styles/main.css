@@ -1,20 +1,17 @@
 :root {
     /*! Background Colors */
-    --default-bg-color: rgba(255, 255, 255);
-    --primary-bg-color: rgb(3, 0, 16);
-    --secondary-bg-color: rgb(0, 42, 255);
-    --main-banner-gradient-color-1: rgb(0, 5, 25);
-    --main-banner-gradient-color-2: rgb(3, 11, 45);
+    --default-bg-color: rgba(230, 230, 230);
+    --primary-bg-color: rgb(10, 10, 10);
+    --main-gradient-color-1: rgb(0, 5, 25);
+    --main-gradient-color-2: rgb(3, 11, 45);
 
     /*! Text Colors */
-    --primary-text-color: rgb(220, 220, 220);
+    --primary-text-color: rgb(40, 40, 40);
     --secondary-text-color: rgb(235, 235, 235);
-    --dark-text-color: rgb(40, 40, 40);
-    --highligth-text-color-1: rgb(72, 255, 255);
-    --highligth-text-color-2: rgb(131, 0, 187);
-    --highligth-text-color-3: rgb(0, 30, 182);
-    --headers-text-color: rgb(2, 0, 46);
-    --nav-headers-text-color: rgb(0, 251, 255);
+    --dark-text-color: rgb(10, 10, 10);
+    --header-text-color-1: rgb(131, 0, 187);
+    --header-text-color-2: rgb(0, 30, 182);
+    --nav-headers-text-color: rgb(0, 255, 255);
     
     /*! Font Settings */
     --default-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -22,8 +19,8 @@
     --main-font-family: 'Georgia', serif;
     --nav-font-family: 'Monaco', monospace;
 
-    /*! Images Settings */
-    --profile-border-color: rgb(0, 166, 216);
+    /*! Border Settings */
+    --border-color: rgb(0, 255, 255);
 }
 
 /* Body Styles */
@@ -38,7 +35,7 @@ body {
 body h1, body h2, body h3 {
     margin: 5px;
     padding: 10px;
-    color: var(--headers-text-color);
+    color: var(--header-text-color-1);
 }
 
 body p {
