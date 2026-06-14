@@ -17,12 +17,12 @@
     align-items: center;
     justify-content: center;
     border-bottom: 3px solid rgb(60, 60, 60);
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .about-me h2 {
     margin: 0;
-    color: var(--highligth-text-color-2);
+    color: var(--header-text-color-1);
     font-size: 250%;
 }
 
@@ -45,7 +45,7 @@
 }
 .about-text p{
     font-size: 120%;
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .experience-education-interests-list {
@@ -68,7 +68,7 @@
 
 .experience-education-interests-list h3 {
     font-size: 130%;
-    color: var(--highligth-text-color-3);
+    color: var(--header-text-color-2);
 }
 
 .experience-education-interests-list h4 {
@@ -77,5 +77,5 @@
 }
 
 .experience-education-interests-list p {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
