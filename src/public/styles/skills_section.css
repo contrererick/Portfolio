@@ -4,7 +4,6 @@
     margin-bottom: 20px;
     padding: 5px;
     background: linear-gradient(90deg, var(--main-gradient-color-1), var(--main-gradient-color-2));
-    border-bottom: 2px solid var(--border-color);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -35,6 +34,7 @@
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(60, 60, 60, 0.6);
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
     text-align: left;
 }
@@ -46,4 +46,8 @@
 
 .skill-row p{
     color: var(--dark-text-color);
+}
+
+.skill-row img{
+    max-width: 100px;
 }
