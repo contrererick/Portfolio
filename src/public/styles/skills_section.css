@@ -20,7 +20,8 @@
 .skills-grid {
     margin: 5px;
     padding: 5px;
-    width: 80%;
+    width: 95%;
+    max-width: 1200px;
 }
 
 .skill-row {
@@ -29,6 +30,7 @@
     padding: 10px;
     background-color: var(--default-bg-color);
     display: flex;
+    flex-wrap: nowrap;
     border-bottom: 1px solid rgb(130, 130, 130);
     border-right: 1px solid rgb(130, 130, 130);
     border-radius: 15px;
@@ -37,17 +39,28 @@
     gap: 20px;
     align-items: center;
     text-align: left;
+    overflow-x: auto;
+}
+
+.skill-row > * {
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .skill-row h3 {
     color: var(--header-text-color-2);
     font-size: 150%;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .skill-row p{
     color: var(--dark-text-color);
+    white-space: nowrap;
 }
 
 .skill-row img{
     max-width: 100px;
+    object-fit: contain;
+    flex-shrink: 1;
 }
