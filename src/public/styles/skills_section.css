@@ -1,6 +1,5 @@
 .skills-section {
     width: 100%;
-    margin: 5px;
     margin-bottom: 20px;
     padding: 5px;
     background: linear-gradient(90deg, var(--main-gradient-color-1), var(--main-gradient-color-2));
@@ -20,8 +19,6 @@
 .skills-grid {
     margin: 5px;
     padding: 5px;
-    width: 95%;
-    max-width: 1200px;
 }
 
 .skill-row {
@@ -35,36 +32,44 @@
     border-right: 1px solid rgb(130, 130, 130);
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(60, 60, 60, 0.6);
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: flex-start;
     align-items: center;
     text-align: left;
     overflow-x: auto;
-    height: 120px;
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 10px;
 }
 
-.skill-row > * {
-  min-width: 0;
-  flex-shrink: 1;
+.skill-title {
+    flex-shrink: 0;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
 }
 
-.skill-row h3 {
+.skill-title h3{
     color: var(--header-text-color-2);
     font-size: 150%;
-    white-space: nowrap;
-    flex-shrink: 0;
 }
 
-.skill-row p{
-    color: var(--dark-text-color);
-    white-space: nowrap;
+.row-icons {
+    width: 80%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
 }
 
-.skill-row img{
-    max-width: 100px;
-    max-height: 90px;
-    width: auto;
-    height: auto;
+.skill-row img,
+.row-icons img {
+    width: 80px;
+    height: 80px;
     object-fit: contain;
-    flex-shrink: 1;
+    margin: 5px;
+    padding: 5px;
+    flex-shrink: 0;
 }
