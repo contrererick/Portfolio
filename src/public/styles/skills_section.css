@@ -3,13 +3,14 @@
     margin-bottom: 20px;
     padding: 5px;
     background: linear-gradient(90deg, var(--main-gradient-color-1), var(--main-gradient-color-2));
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
 .skills-section h2 {
+    width: 100%;
     margin: 10px;
     padding: 10px;
     color: var(--nav-headers-text-color);
@@ -17,6 +18,7 @@
 }
 
 .skills-grid {
+    width: 80%;
     margin: 5px;
     padding: 5px;
 }
