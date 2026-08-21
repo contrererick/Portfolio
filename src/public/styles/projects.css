@@ -34,9 +34,12 @@
     border-right: 1px solid rgb(210, 210, 210);
     border-bottom: 1px solid rgb(210, 210, 210);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.projects-list {
+.projects-selector-list {
     width: 30%;
     margin: 5px;
     padding: 10px;
