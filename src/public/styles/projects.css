@@ -40,13 +40,35 @@
 }
 
 .projects-selector-list {
-    width: 30%;
+    width: 35%;
     margin: 5px;
     padding: 10px;
 }
 
+.projects-selector-list ul {
+    list-style-type: none;
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.projects-selector-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(70, 70, 70, 0.4);
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.projects-selector-list li:hover {
+    font-weight: bold;
+    color: blue;
+}
+
 .project-visualizer{
-    width: 70%;
+    width: 65%;
     margin: 5px;
     padding: 10px;
 }
