@@ -1,0 +1,49 @@
+:root {
+    /*! Background Colors */
+    --default-bg-color: rgba(230, 230, 230);
+    --primary-bg-color: rgb(10, 10, 10);
+    --main-gradient-color-1: rgb(0, 5, 25);
+    --main-gradient-color-2: rgb(3, 11, 45);
+
+    /*! Text Colors */
+    --primary-text-color: rgb(40, 40, 40);
+    --secondary-text-color: rgb(235, 235, 235);
+    --dark-text-color: rgb(10, 10, 10);
+    --header-text-color-1: rgb(131, 0, 187);
+    --header-text-color-2: rgb(0, 30, 182);
+    --nav-headers-text-color: rgb(0, 255, 255);
+    
+    /*! Font Settings */
+    --default-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --default-font-size: 16px;
+    --main-font-family: 'Georgia', serif;
+    --nav-font-family: 'Monaco', monospace;
+
+    /*! Border Settings */
+    --border-color: rgb(0, 255, 255);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--default-bg-color);
+    font-family: var(--default-font-family);
+    font-size: var(--default-font-size);
+}
+
+body h1, body h2, body h3 {
+    margin: 5px;
+    padding: 10px;
+    color: var(--header-text-color-1);
+}
+
+body p {
+    margin: 5px;
+    padding: 5px;
+    color: var(--primary-text-color);
+}
