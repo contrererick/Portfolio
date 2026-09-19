@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../styles/about_me.css">
         <link rel="stylesheet" href="../styles/skills_section.css">
         <link rel="stylesheet" href="../styles/projects.css">
+        <link rel="stylesheet" href="../styles/contact_section.css">
     </head>
 
     <body>
@@ -181,8 +182,23 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact-section">
             <h2>Contact</h2>
+            <div class="contact-form">
+                <form>
+                    <label for="firstName">Nombre</label>
+                    <input type="text" id="firstName" name="firstname" placeholder="Tu primer nombre...">
+                    <label for="middleName">Segundo Nombre</label>
+                    <input type="text" id="middleName" name="middlename" placeholder="Tu segundo nombre...">
+                    <label for="lastName">Apellidos</label>
+                    <input type="text" id="lastName" name="lastname" placeholder="Tus apellidos...">
+                    <label for="email">Correo electrónico</label>
+                    <input type="text" id="email" name="email" placeholder="Tu correo...">
+                    <label for="subject">Mensaje</label>
+                    <textarea id="subject" name="subject" placeholder="Deja un mensaje..."></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     
     </body>
